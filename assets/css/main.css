@@ -821,6 +821,19 @@ section,
   object-fit: fill;
   z-index: 1;
 }
+.hero .carousel-item .mobile-img {
+  display: none;
+}
+@media (max-width: 768px) {
+  .hero .carousel-item .desktop-img {
+    display: none;
+  }
+
+  .hero .carousel-item .mobile-img {
+    display: block;
+    object-fit: fill;
+  }
+}
 
 .hero .carousel-item::before {
   content: "";
@@ -2963,9 +2976,7 @@ section,
     height: 20%;
     border: 0;
   }
-  .hero .carousel-item img {
-    object-fit: cover;
-  }
+
 }
 
 .gfrg-advantages {
