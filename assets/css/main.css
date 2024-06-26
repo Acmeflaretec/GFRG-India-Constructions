@@ -2963,6 +2963,9 @@ section,
     height: 20%;
     border: 0;
   }
+  .hero .carousel-item img {
+    object-fit: cover;
+  }
 }
 
 .gfrg-advantages {
