@@ -2221,6 +2221,7 @@ section,
   margin-bottom: 0;
   font-size: 14px;
   color: var(--heading-color);
+ text-align: center;
 }
 .contact .info-item p:hover{
   color: var(--accent-color);
